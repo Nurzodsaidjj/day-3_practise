@@ -1,0 +1,27 @@
+.products {
+  padding-top: 64px;
+}
+.products__list {
+  @include flexBetween;
+}
+.products__title {
+  padding-top: 212px;
+}
+.products__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-b);
+  margin-bottom: 16px;
+}
+.product__btn {
+  @include productBtn;
+}
+.products__item {
+    padding: 24px 24px 24px 24px;
+    background: var(--c1-h);
+    margin-bottom: 64px;
+}
+.products__item span {
+  @include heroSpan;
+}

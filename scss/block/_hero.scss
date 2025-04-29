@@ -1,0 +1,39 @@
+.hero__options__list{
+  @include flexBetween;
+  background: var(--c1-h);
+  padding: 16px 45px;
+text-align: center;
+}
+.hero__items span{
+  @include heroSpan;
+}
+.hero__items{
+  margin-bottom: 20px;
+}
+.card__list{
+  @include flexBetween;
+  padding-top: 60px;
+}
+.card__title{
+  @include heroTitle;
+  margin-bottom: 16px;
+}
+.card__text{
+  @include link;
+}
+.card__btn{
+  @include heroTitle;
+  @include button;
+}
+.card2__text{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 12px;
+color: var(--c2-a);
+margin-bottom: 8px;
+}
+.card__item2{
+  padding: 48px 181px 48px 33px;
+  background-image: url("../../images/Group.svg");
+  background-color: var(--c1-h);
+}
